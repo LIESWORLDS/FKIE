@@ -57,7 +57,7 @@ def _load_token() -> str:
 
 BOT_TOKEN = _load_token()
 OWNER_ID = int(os.environ.get("OWNER_ID", "8790645158"))
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "ALRICESBOT")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Alcreisbot")
 BOT_VERSION = "v15.0"
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "database.db")
